@@ -43,4 +43,4 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 add_subdirectory(src)   # 编译库
 add_subdirectory(test)  # 编译测试
-add_subdirectory(app)   # 编译app
+#add_subdirectory(app)   # 编译app
