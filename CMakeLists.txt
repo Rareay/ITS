@@ -25,10 +25,13 @@ include_directories(${Boost_INCLUDE_DIRS})
 find_package(Pangolin REQUIRED)
 include_directories(${Pangolin_INCLUDE_DIRS})
 
+
+
 set(THIRD_PARTY_LIBS
         ${OpenCV_LIBS}
         ${Boost_LIBRARIES}
         ${Pangolin_LIBRARIES} GL GLU GLEW glut
+        dl glfw3 X11 Xrandr Xi
         pthread
         )
 
